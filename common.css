@@ -1,0 +1,46 @@
+body {
+	background-color: #FFFFFF;
+	color: #555555;
+
+	margin: 0;
+	padding-bottom: 32px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 64px;
+
+	font-family: Verdana, 'BitStream vera Sans', Tahoma, Helvetica, Arial, FreeSans, sans-serif;
+	text-align: justify;
+	line-height: 170%;
+}
+
+a:link {
+	color: #6a2f2f;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6a2f2f;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ba2a2a;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #aa5e5e;
+	text-decoration: none;
+}
+
+.header {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+code, pre {
+	background-color: #eeeeee;
+}
