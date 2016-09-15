@@ -1,0 +1,18 @@
+	{% for section in site.data.resume_projects.sections %}
+		<h3>{{ section.name }}</h3>
+		<p>
+			{% for project in section.projects %}
+				{% if project.url %}<a href="{{ project.url }}">{% endif %}
+				<strong>{{ project.name }}</strong>
+				{% if project.url %}</a>{% endif %}
+				-
+				<em>
+					{{ project.date }}
+					{% if project.date_end %} ~ {{ project.date_end }}{% endif %}
+				</em>
+				-
+				{{ project.description }}
+				<br />
+			{% endfor %}
+		</p>
+	{% endfor %}

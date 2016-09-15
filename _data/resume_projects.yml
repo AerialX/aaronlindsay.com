@@ -1,0 +1,110 @@
+sections:
+    - name: PC / Web
+      projects:
+          - name: Rust + Emscripten
+            url: http://github.com/AerialX/cargo-build
+            date: Mar 2015
+            description: Porting programs written in the Rust programming language to JavaScript and the web.
+          - name: Phantasy Star Online 2 Translation
+            url: http://arks-layer.com
+            date: Aug 2013
+            date_end: Present
+            description: A translation of the Japanese MMORPG game Phantasy Star Online 2.
+          - name: FlashFlashRevolution
+            url: http://flashflashrevolution.com
+            date: Mar 2013
+            date_end: Present
+            description: An online social rhythm game built on Adobe Flash.
+          - name: Reggie! Level Editor
+            url: http://rvlution.net/reggie/
+            date: Nov 2009
+            date_end: Mar 2010
+            description: A powerful level creator for New Super Mario Bros. Wii.
+          - name: RawkSD and RawkTour
+            url: http://rawksd.japaneatahand.com/
+            date: Apr 2009
+            date_end: Jul 2009
+            description: |
+                A PC application based on the .NET platform designed to encode user music and game note charts to be played in the Rock Band 2 Wii and Guitar Hero: World Tour video games.
+    - name: Apple iOS
+      projects:
+          - name: Switcher Rotator
+            date: Feb 2011
+            description: Displays the iPhone multitasking bar in a natural landscape mode.
+          - name: ManualCorrect
+            date: Feb 2011
+            description: A tweak that prevents Auto Correct from ruining your sentences.
+          - name: SBSwitcher
+            url: /i/sbswitcher/
+            date: Dec 2010
+            description: Provides convenient toggle buttons in the iPhone's multitasking bar.
+          - name: iSHSHit
+            url: http://www.iphonedownloadblog.com/2010/12/04/use-ishshit-to-easily-backup-your-shsh-blobs-directly-on-your-iphone/
+            date: Dec 2010
+            description: An application designed to conveniently back up the information needed to restore one's iPhone, iPod Touch, or iPad.
+          - name: WebLeaps
+            url: /i/webleaps/
+            date: Nov 2010
+            description: A tweak that extends the search functionality of the built-in iPhone web browser.
+          - name: Desert Bus
+            url: http://chpwn.com/cydia/desertbus.html
+            date: Nov 2010
+            description: An iPhone OpenGL port of the most boring game in the world, created for charity.
+    - name: Windows Phone 7
+      projects:
+          - name: Ground Bass
+            date: Mar 2011
+            description: |
+                An XNA based rhythm defence game created in 48 hours for the <a href="http://greatcanadianappathon.com">Great Canadian Appathon 2011</a>.
+    - name: Nintendo Wii
+      projects:
+          - name: Tales of Graces Translation
+            url: http://talesofgraces.com
+            date: Mar 2010
+            date_end: Feb 2011
+            description: A full translation of a Japanese RPG video game - cancelled due to an official PS3 localization.
+          - name: Riivolution
+            url: http://rvlution.net/wiki/Riivolution
+            date: Sep 2009
+            date_end: Mar 2010
+            description: A real-time video game patching platform for use with retail Wii game discs. Used for translation patches, user-created levels, content, and more.
+          - name: Fatal Frame 4 Translation
+            url: http://fatalframe4.net
+            date: Sep 2009
+            date_end: Jan 2010
+            description: An English translation of a Japan exclusive horror game, and the first console translation patch to require an official software disc.
+          - name: RawkSD
+            url: http://rawksd.japaneatahand.com/
+            date: Apr 2009
+            date_end: Jul 2009
+            description: A comprehensive DLC system for playing custom and official DLC in Rock Band 2 Wii from unsupported mediums such as USB or Wi-Fi streaming.
+          - name: Supersonic Wii
+            url: http://wiibrew.org/wiki/Supersonic_Wii
+            date: Jun 2008
+            date_end: Jan 2009
+            description: A fast-paced 3D music rhythm game based on the gameplay of Harmonix' Amplitude.
+    - name: Sony PlayStation 3
+      projects:
+          - name: Tales of Vesperia Translation
+            url: http://talesofvesperia.net
+            date: Jan 2011
+            date_end: Mar 2015
+            description: A translation of the Japanese RPG game Tales of Vesperia for the PlayStation 3.
+          - name: Tales of Graces F Translation
+            url: http://talesofgraces.com
+            date: Nov 2010
+            date_end: Feb 2011
+            description: A translation of the PS3 port of Tales of Graces Wii. A full demo translation was released before the project was cancelled due to an official localization.
+          - name: PSL1GHT
+            url: http://psl1ght.com/
+            date: Oct 2010
+            date_end: Present
+            description: The standard lightweight, open-source SDK for legal PlayStation 3 homebrew software development.
+          - name: Kammy
+            url: https://github.com/AerialX/Kammy
+            date: Sep 2010
+            description: A patching platform for code execution in the PlayStation 3 lv2 kernel.
+          - name: PSGroove
+            url: https://github.com/psgroove/psgroove
+            date: Aug 2010
+            description: An open-source implementation of the first PlayStation 3 exploit to allow usigned code to be run.

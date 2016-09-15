@@ -1,0 +1,30 @@
+---
+redirect_from: /personal/resume.php/
+---
+<html>
+	<head>
+		<title>Aaron Lindsay :: R&eacute;sum&eacute;</title>
+		<link rel="stylesheet" type="text/css" href="/common.css" />
+		<link rel="stylesheet" type="text/css" href="resume.css" />
+	</head>
+	<body>
+		{% include header.htm %}
+
+		<h1>R&eacute;sum&eacute;</h1>
+		{% include resume/aaron.htm %}
+
+		<h2>Technical Skills</h2>
+		{% include resume/skills.htm %}
+
+		<h2>Employment</h2>
+		{% include resume/employment.htm %}
+
+		<h2>Experience</h2>
+		See the <a href="/projects/">Projects</a> page for an informal presentation of this list.
+
+		{% include resume/projects.htm %}
+
+		<h2>Education</h2>
+		{% include resume/education.htm %}
+	</body>
+</html>

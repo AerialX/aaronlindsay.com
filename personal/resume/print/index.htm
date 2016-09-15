@@ -1,0 +1,38 @@
+---
+redirect_from: /personal/resumeprint.php/
+---
+<html>
+	<head>
+		<title>Aaron Lindsay :: R&eacute;sum&eacute;</title>
+		<link rel="stylesheet" type="text/css" href="/common.css" />
+		<link rel="stylesheet" type="text/css" href="../resume.css" />
+		<style>
+			body { font-size: 90%; padding: 0 0 0 0; }
+			acronym { border: 0; }
+		</style>
+	</head>
+	<body>
+		<h1>R&eacute;sum&eacute;</h1>
+		{% include resume/aaron.htm %}
+
+		<p>
+			Online version located at <a href="/personal/resume">http://aaronlindsay.com/personal/resume</a>
+		</p>
+<br />
+
+		<h2>Technical Skills</h2>
+		{% include resume/skills.htm %}
+<br />
+
+		<h2>Employment</h2>
+		{% include resume/employment.htm %}
+<br />
+
+		<h2>Experience</h2>
+		{% include resume/projects.htm %}
+<br />
+
+		<h2>Education</h2>
+		{% include resume/education.htm %}
+	</body>
+</html>

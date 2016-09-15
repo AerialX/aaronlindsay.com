@@ -1,0 +1,9 @@
+.address {
+	font-style: italic;
+	display: block;
+	margin-left: 32pt;
+}
+
+acronym {
+	border-bottom: 1px dotted #404040;
+}
